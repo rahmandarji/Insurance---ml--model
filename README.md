@@ -42,8 +42,6 @@ The dataset contains patient information including:
 
 ### 3. Feature Engineering
 - One-hot encoding using `pd.get_dummies()`
-- Created interaction feature:
-  - `bmi_smoker = bmi × smoker_yes`
 
 ### 4. Preprocessing
 - Converted boolean columns to integers
